@@ -1,6 +1,6 @@
 #!/bin/python3
 
-ns = input("Enter a numver less than 25\n")
+ns = input("Enter a number less than 25\n")
 
 n = int(ns)
 
