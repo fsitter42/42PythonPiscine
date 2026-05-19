@@ -2,6 +2,8 @@
 
 s = input()
 
+print(s.swapcase())
+
 for i in range(len(s)):
     if s[i].islower():
         print(s[i].upper(), end="")
