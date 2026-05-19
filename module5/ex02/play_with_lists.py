@@ -3,7 +3,8 @@
 a = [2, 8, 9, 48, 8, 22, -12, 2]
 b = []
 for i in range(len(a)):
-    b.append(a[i] + 2) 
+    if a[i] > 5:
+        b.append(a[i] + 2) 
 
 print("Original List: ", a)
 print("New List: ", b)
