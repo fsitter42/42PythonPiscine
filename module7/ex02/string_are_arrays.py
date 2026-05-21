@@ -12,7 +12,7 @@ count = 0
 for i in range(len(av[1])):
     if av[1][i] == 'z':
         count += 1
-        print('z')
+        print('z', end="")
         i += 1
 if count == 0:
     print("none")

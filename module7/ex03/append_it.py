@@ -1,5 +1,5 @@
-#!/bin/python3
-
+#!/bin/python3.10
+# 
 import sys
 
 ac = len(sys.argv)

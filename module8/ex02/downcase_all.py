@@ -11,5 +11,5 @@ def downcase_it(s):
 if ac < 2:
     print("none")
     sys.exit()
-for i in range(ac):
-    print(downcase_it(av[i]))
+for arg in av:
+    print(downcase_it(arg))
