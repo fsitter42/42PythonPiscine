@@ -1,8 +1,9 @@
 #!/bin/python3
 
 def famous_births(dict):
-    for i in dict:
-        print(f" {dict[i]['name']} is a great scientist {dict[i]['date_of_birth']}.")
+    for val in sorted(dict.values(), key=lambda x: x['date_of_birth']): print(f"{val['name']} is a great scientist {val['date_of_birth']}.")
+        
+        
 
 women_scientists = {
     "ada": { "name": "Ada Lovelace", "date_of_birth": "1815" },
